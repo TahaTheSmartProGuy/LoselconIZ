@@ -3,21 +3,35 @@ title LoselconIZ.exe - Warning
 cls
 echo Run Malware?
 pause
-title LoselconIZ.exe - Last Warning
+title LoselconIZ.exe - LAST WARNING!!
 cls
 echo ARE YOU SURE?? CLOSE IT AND DELETE IT NOW OR YOU WANT TO RUN!!
 pause
-start Boom.exe
-timeout 15
-taskkill /f /im Boom.exe
-start 115.exe
-start Tun.exe
-timeout 25
-taskkill /f /im 115.exe
-taskkill /f /im Tun.exe
-start Plolaris.exe
-start Tun.exe
-start 115.exe
-timeout 10
-taskkill /f /im Tun.exe
-taskkill /f /im Plolaris.exe
+Start Boom.exe
+Start Plolaris2.exe
+Timeout 15
+Taskkill /f /im Plolaris2.exe
+Taskkill /f /im Boom.exe
+Start 115.exe
+Start Tun.exe
+Timeout 15
+Taskkill /f /im 115.exe
+Taskkill /f /im Tun.exe
+Start Plolaris.exe
+Start Tun.exe
+Start 115.exe
+Timeout 15
+Taskkill /f /im Tun.exe
+Taskkill /f /im Plolaris.exe
+Taskkill /f /im 115.exe
+Start Tun.exe
+Start Boom.exe
+Start 115.exe
+Start Plolaris.exe
+Start Plolaris2.exe
+Timeout 15
+Taskkill /f /im Tun.exe
+Taskkill /f /im Plolaris.exe
+Taskkill /f /im 115.exe
+Taskkill /f /im Boom.exe
+Taskkill /f /im Plolaris2.exe
